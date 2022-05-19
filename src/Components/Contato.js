@@ -6,7 +6,7 @@ import Head from './Head';
 const Contato = () => {
   return (
     <section className={`${styles.contato} animeLeft`}>
-      <Head title="Desafio | Contato" description="Entre em contato" />
+      <Head title="Ranek | Contato" description="Entre em contato" />
       <img src={foto} alt="Máquina de escrever" />
       <div>
         <h1>Entre em contato.</h1>
@@ -16,7 +16,6 @@ const Contato = () => {
           <li>Rua Ali Perto, 999</li>
         </ul>
       </div>
-      <h1>Contato</h1>
     </section>
   );
 };

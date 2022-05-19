@@ -1,0 +1,15 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.produtos img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 4px rgba(162, 162, 162, 0.25);
+}
+
+.nome {
+  margin: 0.5rem 0;
+}
